@@ -191,7 +191,7 @@ export function LandingPage() {
       </section>
 
       <footer className="border-t border-border/50 py-8 text-center text-sm text-muted-foreground">
-        © {new Date().getFullYear()} Lingua. Premium English learning.
+        © {new Date().getFullYear()} EnglishHub. Premium English learning.
       </footer>
     </div>
   );

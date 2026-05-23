@@ -1,8 +1,8 @@
-# Lingua — Premium English Learning Platform
+# EnglishHub — Premium English Learning Platform
 
 A modern, premium English learning platform built for teenagers, students, and adults. Calm, intelligent, and polished — inspired by Apple, Notion, and Linear.
 
-![Lingua](https://img.shields.io/badge/React-19-blue) ![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue) ![Tailwind](https://img.shields.io/badge/Tailwind-3.4-38bdf8)
+![EnglishHub](https://img.shields.io/badge/React-19-blue) ![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue) ![Tailwind](https://img.shields.io/badge/Tailwind-3.4-38bdf8)
 
 ## Features
 

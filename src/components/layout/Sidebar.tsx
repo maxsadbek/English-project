@@ -94,7 +94,7 @@ export function Sidebar({ open, onClose }: SidebarProps) {
             <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-primary to-emerald-500">
               <Sparkles className="h-4 w-4 text-white" />
             </div>
-            <span className="font-semibold">Lingua</span>
+            <span className="font-semibold">EnglishHub</span>
           </Link>
           <Button variant="ghost" size="icon" className="lg:hidden" onClick={onClose}>
             <X className="h-4 w-4" />

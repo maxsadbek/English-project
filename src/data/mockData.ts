@@ -17,7 +17,7 @@ export const testimonials = [
     name: "Sarah Chen",
     role: "University Student",
     content:
-      "Lingua feels like a professional tool, not a game for kids. The focus mode and AI tutor helped me pass IELTS with confidence.",
+      "EnglishHub feels like a professional tool, not a game for kids. The focus mode and AI tutor helped me pass IELTS with confidence.",
     avatar: "SC",
   },
   {

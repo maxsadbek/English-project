@@ -90,7 +90,7 @@ export function OnboardingPage() {
         <div className="mb-8 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Sparkles className="h-5 w-5 text-primary" />
-            <span className="font-semibold">Lingua</span>
+            <span className="font-semibold">EnglishHub</span>
           </div>
           <span className="text-sm text-muted-foreground">
             Step {step + 1} of {steps.length}

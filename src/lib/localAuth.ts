@@ -1,7 +1,7 @@
 import type { User } from "@/types";
 
-const USERS_KEY = "lingua-local-users";
-const SESSION_KEY = "lingua-local-session";
+const USERS_KEY = "englishhub-local-users";
+const SESSION_KEY = "englishhub-local-session";
 
 interface LocalAccount {
   name: string;
@@ -53,7 +53,11 @@ export function setLocalSession(user: User | null) {
   else localStorage.removeItem(SESSION_KEY);
 }
 
-export function localSignUp(name: string, email: string, password: string): User {
+export function localSignUp(
+  name: string,
+  email: string,
+  password: string,
+): User {
   const normalized = email.trim().toLowerCase();
   const accounts = loadAccounts();
 
@@ -84,7 +88,8 @@ export function localSignIn(email: string, password: string): User {
 }
 
 export function localGoogleSignIn(email?: string, name?: string): User {
-  const normalized = email?.trim().toLowerCase() || "google-local@lingua.app";
+  const normalized =
+    email?.trim().toLowerCase() || "google-local@englishhub.app";
   const displayName = name?.trim() || "Google User";
   const accounts = loadAccounts();
   const existing = accounts.find((a) => a.email === normalized);

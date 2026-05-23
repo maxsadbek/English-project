@@ -90,7 +90,7 @@ export function AuthPage({ mode }: AuthPageProps) {
           <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-white/10">
             <Sparkles className="h-5 w-5" />
           </div>
-          <span className="text-xl font-semibold">Lingua</span>
+          <span className="text-xl font-semibold">EnglishHub</span>
         </Link>
         <div>
           <h2 className="font-serif text-4xl leading-tight">
@@ -103,7 +103,7 @@ export function AuthPage({ mode }: AuthPageProps) {
             distraction-free practice.
           </p>
         </div>
-        <p className="text-sm text-zinc-500">© Lingua — Premium English Learning</p>
+        <p className="text-sm text-zinc-500">© EnglishHub — Premium English Learning</p>
       </div>
 
       <div className="flex flex-1 items-center justify-center p-6">

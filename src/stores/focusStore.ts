@@ -40,6 +40,6 @@ export const useFocusStore = create<FocusState>()(
       removeNote: (id) =>
         set({ notes: get().notes.filter((n) => n.id !== id) }),
     }),
-    { name: "lingua-focus" }
+    { name: "englishhub-focus" }
   )
 );

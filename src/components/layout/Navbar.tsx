@@ -1,13 +1,13 @@
-import { Link, useLocation } from "react-router-dom";
-import { motion } from "framer-motion";
-import { Menu, Moon, Sun, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { useThemeStore } from "@/stores/themeStore";
 import { useAuthStore } from "@/stores/authStore";
+import { useThemeStore } from "@/stores/themeStore";
+import { motion } from "framer-motion";
+import { Menu, Moon, Sparkles, Sun } from "lucide-react";
+import { Link, useLocation } from "react-router-dom";
 
 const navLinks = [
   { href: "#features", label: "Features" },
-  { href: "#advantages", label: "Why Lingua" },
+  { href: "#advantages", label: "Why EnglishHub" },
   { href: "#testimonials", label: "Stories" },
   { href: "#stats", label: "Impact" },
 ];
@@ -37,7 +37,9 @@ export function Navbar({ onMenuClick }: NavbarProps) {
           <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-primary to-emerald-500">
             <Sparkles className="h-5 w-5 text-white" />
           </div>
-          <span className="text-lg font-semibold tracking-tight">Lingua</span>
+          <span className="text-lg font-semibold tracking-tight">
+            EnglishHub
+          </span>
         </Link>
 
         {isLanding && (
@@ -55,7 +57,12 @@ export function Navbar({ onMenuClick }: NavbarProps) {
         )}
 
         <div className="flex items-center gap-2">
-          <Button variant="ghost" size="icon" onClick={toggleTheme} aria-label="Toggle theme">
+          <Button
+            variant="ghost"
+            size="icon"
+            onClick={toggleTheme}
+            aria-label="Toggle theme"
+          >
             {resolvedTheme === "dark" ? (
               <Sun className="h-4 w-4" />
             ) : (
@@ -79,7 +86,12 @@ export function Navbar({ onMenuClick }: NavbarProps) {
           )}
 
           {onMenuClick && (
-            <Button variant="ghost" size="icon" className="lg:hidden" onClick={onMenuClick}>
+            <Button
+              variant="ghost"
+              size="icon"
+              className="lg:hidden"
+              onClick={onMenuClick}
+            >
               <Menu className="h-5 w-5" />
             </Button>
           )}

@@ -30,7 +30,7 @@ export const useThemeStore = create<ThemeState>()(
       },
     }),
     {
-      name: "lingua-theme",
+      name: "englishhub-theme",
       onRehydrateStorage: () => (state) => {
         if (state) {
           const resolved = resolveTheme(state.theme);
